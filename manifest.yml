@@ -1,9 +1,6 @@
 ---
-instances: 3
+instances: 1
 buildpack: go_buildpack
 memory: 512M
-domains:
-- cloudfoundry.org
-- cfapps.io
 applications:
 - name: plugins
